@@ -54,6 +54,8 @@ SCC <- readRDS("Source_Classification_Code.rds")
 
 as long as each of those files is in your current working directory (check by calling ``dir()`` and see if those files are in the listing).
 
+### Questions
+
 The files provided i.e ``plot1.r``, ``plot2.R`` , etc answer the questions below
 1. Have total emissions from $PM_{2.5}$ decreased in the United States from 1999 to 2008? Using the **base** plotting system, make a plot showing the total $PM_{2.5}$ emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 2. Have total emissions from $PM_{2.5}$ decreased in the **Baltimore City**, Maryland (``fips == "24510"``) from 1999 to 2008? Use the base plotting system to make a plot answering this question.
